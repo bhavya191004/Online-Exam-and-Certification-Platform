@@ -131,6 +131,8 @@ const Navbar = () => {
         </div>
       </ScrollSection>
       
+
+       
       
 
       {/* Smart Proctoring Section */}
