@@ -23,7 +23,7 @@ const ScrollSection = ({ children }) => {
   );
 };
 
-const Navbar = () => {
+const HomePage= () => {
   const [isMobile, setIsMobile] = useState(false);
 
   const handleMenuToggle = () => {
@@ -274,4 +274,5 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default HomePage;
+
