@@ -16,6 +16,20 @@
   z-index: -1; /* Send the video behind content */
 }
 
+.logout-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.logout-btn:hover {
+  background-color: darkred;
+}
+
 /* Content on top of the video */
 .content {
   position: absolute;
