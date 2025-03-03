@@ -53,7 +53,7 @@ const HomePage= () => {
               <Link to="/">Exam Platform</Link>
             </div>
             <ul className={`nav-links ${isMobile ? 'active' : ''}`}>
-              {['Home', 'About', 'Exams', 'Contact',  'SignUp'].map((item) => (
+              {['Home', 'About', 'Test', 'Contact',  'SignUp'].map((item) => (
                 <li key={item}>
                   <Link to={`/${item.toLowerCase()}`}>{item}</Link>
                 </li>

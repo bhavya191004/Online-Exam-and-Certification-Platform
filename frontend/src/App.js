@@ -5,7 +5,7 @@ import { BrowserRouter } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
-import AdminDashboard from "./pages/AdminDashboard";
+import Test from "./pages/Test";
 import StudentDashboard from "./pages/StudentDashboard";
 import ExaminerDashboard from "./pages/ExaminerDashboard";
 
@@ -18,7 +18,7 @@ function App() {
       <Route path="/home" element={<HomePage />} />
       <Route path="/signup" element={<SignUp />} />
       <Route path="/login" element={<Login />} />
-      <Route path="/admin-dashboard" element={<AdminDashboard />} />
+      <Route path="/test" element={<Test />} />
       <Route path="/student-dashboard" element={<StudentDashboard />} />
       <Route path="/examiner-dashboard" element={<ExaminerDashboard />} />
     </Routes>
